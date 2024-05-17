@@ -1,46 +1,16 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
-title: zRainy的博客
-titleTemplate: Hi，终于等到你
-editLink: true
-lastUpdated: true
-
-hero:
-  name: zRainy
-  text: Stay foolish, Stay hungry.
-  tagline: /斜杠青年/人间清醒/工具控/技术宅
-  image:
-    # 首页右边的图片
-    src: /avatar.png
-    # 图片的描述
-    alt: avatar
-  # 按钮相关
-  actions:
-    - theme: brand
-      text: 进入主页
-      link: /column/views/guide
-    - theme: alt
-      text: 个人成长
-      link: /column/Growing/
-# 按钮下方的描述
-# https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.mjs
-features:
-  - icon: ♀️
-    title: Web前端
-    details: 国内某互联网厂搬砖。
-    link: /column/views/guide
-  - icon: 🎨
-    title: 喜欢美学
-    details: 热爱一切美学，喜欢用各种设计工具造图。
-  - icon: 🧩
-    title: 斜杆青年
-    details: 是个平平无奇但是又很热爱学习的斜杆青年。
+# 首页部分元素定制
+blog:
+ name: '@sugarat/theme'
+ motto: 简约风的 Vitepress 博客主题
+ inspiring:
+  - 基于 Vitepress 定制的主题🎨
+  - 千万不要因为走得太久，而忘记了我们为什么出发
+  - 人生就像一场修行，你不可能一开始就修成正果
+  - 无论多么沉重的负担，也不要忘记微笑；无论多么漫长的路程，也不要忘记坚持
+  - 生活的真谛不在繁华，而在于淡泊
+ # 设置 inspiringTimeout 可以实现自动切换
+ inspiringTimeout: 3000
+ pageSize: 6
 ---
-
-<!-- 自定义组件 -->
-<!-- <script setup>
-import home from './components/home.vue';
-</script> -->
-<!-- <home /> -->

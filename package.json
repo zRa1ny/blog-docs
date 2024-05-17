@@ -1,28 +1,33 @@
 {
   "name": "blog-docs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "description": "zRainy",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
-  },
-  "pnpm": {
-    "peerDependencyRules": {
-      "ignoreMissing": [
-        "@algolia/client-search"
-      ]
-    }
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "serve": "vitepress serve"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vitepress": "^1.1.4"
+    "sass": "^1.76.0",
+    "typescript": "^5.4.5",
+    "vitepress": "1.1.4"
   },
   "dependencies": {
-    "vue": "^3.4.27"
+    "@element-plus/icons-vue": "^2.3.1",
+    "@sugarat/theme": "^0.3.4",
+    "element-plus": "^2.7.2",
+    "vue": "3.4.26"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "search-insights"
+      ]
+    }
   }
 }

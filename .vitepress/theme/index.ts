@@ -1,24 +1,9 @@
-import {
-    computed,
-    defineComponent,
-    h,
-    inject,
-    onMounted,
-    onUnmounted,
-    provide,
-    reactive,
-    ref
-} from 'vue'
-import DefaultTheme from 'vitepress/theme';
-import type { Theme } from 'vitepress'
-import './custom.css';
-import Home from '../components/home.vue'
-export default {
-    ...DefaultTheme,
-    Layout: defineComponent({
-        setup(_, { slots }) {
-            console.log(slots)
-            return () => h(Home, null, slots)
-        }
-    })
-} as Theme;
+import BlogTheme from '@sugarat/theme'
+
+// 自定义样式重载
+// import './style.scss'
+
+// 自定义主题色
+// import './user-theme.css'
+
+export default BlogTheme

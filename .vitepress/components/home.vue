@@ -4,8 +4,10 @@
     </div>
 </template>
 
-<script lang="ts" setup>
+<script setup>
+import { useData } from "vitepress";
 const list = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+console.log(useData())
 </script>
 
 <style scoped>

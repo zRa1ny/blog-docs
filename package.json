@@ -19,7 +19,9 @@
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
     "@sugarat/theme": "^0.3.4",
+    "@types/node": "^20.12.12",
     "element-plus": "^2.7.2",
+    "vite": "^5.2.11",
     "vue": "3.4.26"
   },
   "pnpm": {

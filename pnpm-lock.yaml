@@ -3,22 +3,26 @@ lockfileVersion: 5.4
 specifiers:
   '@element-plus/icons-vue': ^2.3.1
   '@sugarat/theme': ^0.3.4
+  '@types/node': ^20.12.12
   element-plus: ^2.7.2
   sass: ^1.76.0
   typescript: ^5.4.5
+  vite: ^5.2.11
   vitepress: 1.1.4
   vue: 3.4.26
 
 dependencies:
   '@element-plus/icons-vue': 2.3.1_vue@3.4.26
   '@sugarat/theme': 0.3.4_5bbyy2yd63rtjcpqdhhuaan6rm
+  '@types/node': 20.12.12
   element-plus: 2.7.3_vue@3.4.26
+  vite: 5.2.11_q232fjyrpkfhcrmg5coltkhjqi
   vue: 3.4.26_typescript@5.4.5
 
 devDependencies:
   sass: 1.77.2
   typescript: 5.4.5
-  vitepress: 1.1.4_rdlgdtebad2adtfrshdcjbz5ke
+  vitepress: 1.1.4_lnshrdbasorzwiadbtqphzmyky
 
 packages:
 
@@ -741,6 +745,11 @@ packages:
     resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
     dev: false
 
+  /@types/node/20.12.12:
+    resolution: {integrity: sha512-eWLDGF/FOSPtAvEqeRAQ4C8LSA7M1I7i0ky1I8U7kD1J5ITyW3AsRhQrKVoWf5pFKZ2kILsEGJhsI9r93PYnOw==}
+    dependencies:
+      undici-types: 5.26.5
+
   /@types/trusted-types/2.0.7:
     resolution: {integrity: sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==}
     dev: false
@@ -763,7 +772,7 @@ packages:
       vite: ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 5.2.11_sass@1.77.2
+      vite: 5.2.11_q232fjyrpkfhcrmg5coltkhjqi
       vue: 3.4.26_typescript@5.4.5
 
   /@vue/compiler-core/3.4.26:
@@ -2169,6 +2178,9 @@ packages:
     resolution: {integrity: sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==}
     dev: false
 
+  /undici-types/5.26.5:
+    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+
   /unist-util-stringify-position/3.0.3:
     resolution: {integrity: sha512-k5GzIBZ/QatR8N5X2y+drfpWG8IDBzdnVj6OInRNWm1oXrzydiaAT2OQiA8DPRRZyAKb9b6I2a6PxYklZD0gKg==}
     dependencies:
@@ -2191,7 +2203,7 @@ packages:
       sade: 1.8.1
     dev: false
 
-  /vite/5.2.11_sass@1.77.2:
+  /vite/5.2.11_q232fjyrpkfhcrmg5coltkhjqi:
     resolution: {integrity: sha512-HndV31LWW05i1BLPMUCE1B9E9GFbOu1MbenhS58FuK6owSO5qHm7GiCotrNY1YE5rMeQSFBGmT5ZaLEjFizgiQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -2219,6 +2231,7 @@ packages:
       terser:
         optional: true
     dependencies:
+      '@types/node': 20.12.12
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.17.2
@@ -2239,7 +2252,7 @@ packages:
       vitepress: ^0.21.6 || ^1.0.0 || ^1.0.0-alpha
     dependencies:
       mermaid: 10.9.1
-      vitepress: 1.1.4_rdlgdtebad2adtfrshdcjbz5ke
+      vitepress: 1.1.4_lnshrdbasorzwiadbtqphzmyky
     optionalDependencies:
       '@mermaid-js/mermaid-mindmap': 9.3.0
     dev: false
@@ -2268,7 +2281,7 @@ packages:
       fast-glob: 3.3.2
       feed: 4.2.2
       gray-matter: 4.0.3
-      vitepress: 1.1.4_rdlgdtebad2adtfrshdcjbz5ke
+      vitepress: 1.1.4_lnshrdbasorzwiadbtqphzmyky
     dev: false
 
   /vitepress-plugin-tabs/0.2.0_vitepress@1.1.4+vue@3.4.26:
@@ -2277,11 +2290,11 @@ packages:
       vitepress: ^1.0.0-alpha.29
       vue: ^3.2.45
     dependencies:
-      vitepress: 1.1.4_rdlgdtebad2adtfrshdcjbz5ke
+      vitepress: 1.1.4_lnshrdbasorzwiadbtqphzmyky
       vue: 3.4.26_typescript@5.4.5
     dev: false
 
-  /vitepress/1.1.4_rdlgdtebad2adtfrshdcjbz5ke:
+  /vitepress/1.1.4_lnshrdbasorzwiadbtqphzmyky:
     resolution: {integrity: sha512-bWIzFZXpPB6NIDBuWnS20aMADH+FcFKDfQNYFvbOWij03PR29eImTceQHIzCKordjXYBhM/TjE5VKFTUJ3EheA==}
     hasBin: true
     peerDependencies:
@@ -2306,7 +2319,7 @@ packages:
       mark.js: 8.11.1
       minisearch: 6.3.0
       shiki: 1.4.0
-      vite: 5.2.11_sass@1.77.2
+      vite: 5.2.11_q232fjyrpkfhcrmg5coltkhjqi
       vue: 3.4.26_typescript@5.4.5
     transitivePeerDependencies:
       - '@algolia/client-search'

@@ -3,7 +3,7 @@ export const nav: DefaultTheme.NavItem[] = [
     {
         text: '技术笔记',
         items: [
-            // { text: '技术概念', link: '/technology/theory/' },
+            { text: '概念', link: '/technology/theory/' },
             { text: '学习笔记', link: '/technology/study/' },
             { text: '源码学习', link: '/technology/source/' },
             // { text: '技术教程', link: '/technology/learn/' },
@@ -35,15 +35,15 @@ export const nav: DefaultTheme.NavItem[] = [
     {
         text: '关于我',
         items: [
-            { text: 'Github', link: 'https://github.com/Jacqueline712' },
-            { text: 'Gitee', link: 'https://github.com/Jacqueline712' },
+            { text: 'Github', link: 'https://github.com/zRa1ny' },
+            { text: 'Gitee', link: 'https://gitee.com/zRainy' },
             {
                 text: '掘金',
-                link: 'https://juejin.cn/user/3131845139247960/posts'
+                link: 'https://juejin.cn/user/418232918880926'
             },
             {
                 text: 'CSDN',
-                link: 'https://pzfqk98jn1.feishu.cn/wiki/space/7193915595975491587?ccm_open_type=lark_wiki_spaceLink'
+                link: 'https://blog.csdn.net/qq_41914181'
             }
         ]
     }

@@ -4,7 +4,7 @@ layout: home
 logo: '/assets/avatar.jpg'
 blog:
  name: '@zRainy'
- motto: 更简单一点
+ motto: 少即是多、简才为真
  inspiring:
   - 无论多么沉重的负担，也不要忘记微笑；无论多么漫长的路程，也不要忘记坚持
   - 生活的真谛不在繁华，而在于淡泊

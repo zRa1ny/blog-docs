@@ -1,5 +1,5 @@
 {
   "vscode-office.editorTheme": "Auto",
   "vscode-office.openOutline": false,
-  "vscode-office.pasterImgPath": "${workspaceDir}/resources/${fileName}/${now}.png"
+  "vscode-office.pasterImgPath": "./resources/${fileName}/${now}.png"
 }

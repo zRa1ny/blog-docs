@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { nav } from './relaConf';
+import { nav, sidebar } from './relaConf';
 import SugaratTheme from './user-sugarat-theme'
 import viteConifg from './vite.config'
 import { fileURLToPath } from 'node:url';
@@ -18,19 +18,10 @@ export default defineConfig({
   themeConfig: {
     logo: "/assets/logo.png",
     // https://vitepress.dev/reference/default-theme-config
-    nav: nav, // 把定义的nav给替换进来
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
-
+    nav, 
+    sidebar,
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      // { icon: 'github', link: '' }
     ]
   },
   vite: viteConifg,

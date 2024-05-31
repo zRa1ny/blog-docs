@@ -14,9 +14,9 @@ export default defineConfig({
   extends: SugaratTheme,
   title: "Inspirations",
   description: "",
-  srcDir: '.',
+  srcDir: './src',
   themeConfig: {
-    logo: "./logo.png",
+    logo: "/assets/logo.png",
     // https://vitepress.dev/reference/default-theme-config
     nav: nav, // 把定义的nav给替换进来
     sidebar: [
@@ -34,7 +34,4 @@ export default defineConfig({
     ]
   },
   vite: viteConifg,
-  rewrites: {
-    'src/technology/study/*': 'technology/study/*'
-  }
 })
